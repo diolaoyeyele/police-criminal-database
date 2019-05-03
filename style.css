@@ -1,0 +1,139 @@
+
+.nav{
+
+    display: inline; 
+}
+
+.list{
+    display: inline-flex !important;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 20px;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+a{
+    padding: 18px;
+    color: black;
+}
+.btn-primary{
+
+    width: 100px;
+    height: 34px;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: azure;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 30px;
+    margin-right: 300px;
+    padding-bottom: 5px;
+    
+
+}
+.search{
+    border-radius: 30px;
+    border: 1px solid;
+    width: 300px;
+    height: 34px;
+    text-align: center;
+    margin-left: 2px;
+    
+
+}
+.footer{
+    postion: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color:grey;
+    color: white;
+    text-align: center;
+    margin-top: 440px;
+}
+.footer2{
+    postion: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color:grey;
+    color: white;
+    text-align: center;ui
+    margin-top: 70px;
+
+}
+h1{
+    font-family: Verdana;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg{
+    background-image: url("image2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+.details{
+    border-radius: 30px;
+    border: 1px solid;
+    width: 300px;
+    height: 34px;
+    text-align: center;
+    margin-left: 38.5%;
+    font-style: italic;
+    margin-bottom: 10px;
+
+
+}
+.formitem{
+    border-radius: 30px;
+    border: 1px solid;
+    width: 300px;
+    height: 34px;
+    text-align: center;
+    margin-left: 38.5%;
+    font-style: italic;
+    margin-bottom: 10px;
+
+}
+.img{
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-left: 35%; 
+    width: 45%;
+
+    
+
+}
+.description{
+    width: 300px;
+    height: 150px;
+    font-style: italic;
+    border: 1px solid;
+    margin-left: 5%;
+    border-radius: 2px;
+    overflow: scroll;
+}
+
+
+.offencecat{
+    border-radius: 10px;
+    border: 1px solid;
+    width: 300px;
+    height: 34px;
+    text-align: center;
+    margin-left: 5%;
+    font-style: italic;
+    margin-bottom: 10px;
+
+
+}
+.gender{
+    margin-left: 5%;
+    margin-bottom: 2%;
+}

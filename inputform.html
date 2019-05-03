@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NPD Login</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="C:\Users\Demi\Desktop\projects\html\NPD\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <header class ="header2" style="background-color: green ">
+                <div class="nav" >
+                        <ul class ="list">
+                                <li><a href ="#" onclick="location.href='loggedin.html' ">  Home       </a></li>
+                                <li><a href ="#">        </a></li>
+                                <li><a href ="#">       </a></li>
+                                <li><a href ="#">      </a></li>
+                                <li><a href ="#"></a></li>
+                        </ul>
+                </div>
+            </header>
+    <h1> REGISTER AN OFFENDER</h1>
+    <form action="registered.html" method="post">
+            <input style="margin-left: 5%; border-radius: 10px;" type="text" name="crid" class="formitem" placeholder="ID"/><br>
+            <input style="margin-left: 5%; border-radius: 10px;" type="text" name="firstname" class="formitem" placeholder="Enter First Name"/><br>
+            <input style="margin-left: 5%;  border-radius: 10px;" type="text" name="lastname" class="formitem" placeholder="Enter Last Name"/><br>
+            <input style="margin-left: 5%; border-radius: 10px;" type="date" name="crdob" class="formitem" placeholder="Enter D.O.B"/><br>
+            <select name = "Offence" class="offencecat" >
+                    <option>Offence Category</option>
+                    <option value="one">Grand Theft Auto</option>
+                    <option value="two">Arson</option>
+                    <option value="three">Cyber-crime</option>
+                    <option value="four">Murder</option>
+                    <option value="five">Robbery</option>
+                    <option value="six">Kidnapping</option>
+                    <option value="seven">Rape</option>
+                </select><br>
+                <div class="gender">
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="male">Male
+                </div>
+             <textarea name="text" cols="25" rows="5" placeholder="description" class="description" style="margin-right:80%;"></textarea>
+             <button type="submit" class="btn-primary" Style="; margin-top: 0px; margin-left: 12%; margin-top:2%;"  > Register </button>
+<footer class="footer"> 
+    <p> 
+    The ministry of police does not support vigilante justice. Information provided is strictly for viewing and reports.
+    </p>
+    <p>
+    Call 911 in case of emeregency
+    </p>
+    <p>
+    All rights reserved by the FRN
+    </p>
+
+</footer>
